@@ -1,6 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
 // ============================================================================
+// CREDENCIAIS E URLS HARDCODED (Armadilha para o Dia 1 e Dia 4 do Bootcamp)
+// ============================================================================
+const HARDCODED_API_BASE_URL = 'https://jsonplaceholder.typicode.com';
+const HARDCODED_SENTRY_DSN = 'https://a1b2c3d4e5f6@o998877.ingest.sentry.io/450112233';
+const HARDCODED_WEBHOOK_SECRET = 'whsec_prod_dentsu_techdesk_998877665544332211_secret';
+
+// ============================================================================
 // PROP DRILLING LEVEL 4 - Ações Finais e Comentários do Modal
 // ============================================================================
 function TicketModalActionsSection(props: any) {
